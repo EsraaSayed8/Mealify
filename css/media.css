@@ -1,0 +1,210 @@
+/* 640  -    sm */
+@media screen and (min-width: 640px) {
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-33 {
+    width: 33.333%;
+  }
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-20 {
+    width: 20%;
+  }
+  .sm-16 {
+    width: 16%;
+  }
+
+
+}
+
+/* 768  -    md */
+@media screen and (min-width: 768px) {
+  .md-50 {
+    width: 50%;
+  }
+  .md-33 {
+    width: 33.333%;
+  }
+  .md-25 {
+    width: 25%;
+  }
+  .md-20 {
+    width: 20%;
+  }
+  .md-16 {
+    width: 16%;
+  }
+
+  #Home .container > * {
+    width: 100%;
+  }
+     #Chefs .chef-cards {
+    display: flex;
+      flex-wrap: wrap; 
+    /* gap: 40px;  */
+  } 
+
+
+   #Chefs .chef-cards .card {
+    width: calc(50% - 20px);
+  } 
+
+
+#Contact .details{
+    display: flex; 
+  flex-wrap: wrap; 
+}
+ #Contact .details .card {
+     width: calc(calc(100% - var(--gap)) / 2); 
+  margin:  0;
+
+ }
+
+
+
+
+
+}
+
+
+
+
+
+
+/* 1024  -    lg */
+@media screen and (min-width: 1024px) {
+  .lg-50 {
+    width: 50%;
+  }
+  .lg-33 {
+    width: 33.333%;
+  }
+  .lg-25 {
+    width: 25%;
+  }
+  .lg-20 {
+    width: 20%;
+  }
+  .lg-16 {
+    width: 16%;
+  }
+
+  #Home .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+  }
+  #Home .home-content {
+    order: 1;
+  }
+  #Home .home-image {
+    order: 2;
+  }
+  #Home .home-content .border {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 0px;
+  }
+  #Home .container > * {
+    width: 40%;
+  }
+       #Chefs .chef-cards {
+    display: flex;
+      flex-wrap: wrap; 
+  } 
+   #Chefs .chef-cards .card {
+    width: calc(33.333% - 40px);
+  } 
+    #Gallery .gallery-imgs {
+
+   grid-template-columns: repeat(3, 1fr); 
+  }
+  
+
+#Gallery .gallery-imgs .gallery-card .layer p {
+  font-size: 12px;
+
+}
+#Contact form .input-group{
+     display: flex; 
+   flex-wrap: wrap; 
+}
+#Contact form .input-group input {
+   width: calc(calc(100% - var(--gap)) / 2); 
+
+}
+#footer :is(.about, .contact) {
+   width: calc(calc(100% - var(--gap) * 2) / 4); 
+}
+#footer :is(.subscribe) {
+   width: calc(calc(100% - var(--gap) * 2) / 2); 
+}
+#footer .container{
+     display: flex; 
+
+}
+#footer .subscribe-box{
+    display: flex; 
+
+}
+#footer .subscribe input{
+  width: 70%;
+}
+#footer button {
+  width: 30%;
+}
+
+}
+
+/* 1280  -    xl */
+@media screen and (min-width: 1280px) {
+  .xl-50 {
+    width: 50%;
+  }
+  .xl-33 {
+    width: 33.333%;
+  }
+  .xl-25 {
+    width: 25%;
+  }
+  .xl-20 {
+    width: 20%;
+  }
+  .xl-16 {
+    width: 16%;
+  }
+
+  #navbar .nav-menu ul {
+    display: flex;
+  }
+  #navbar .nav-icon .bars {
+    display: none;
+  }
+
+}
+
+/* 1539  -    xxl */
+
+@media screen and (min-width: 1536px) {
+  .xxl-50 {
+    width: 50%;
+  }
+  .xxl-33 {
+    width: 33.333%;
+  }
+  .xxl-25 {
+    width: 25%;
+  }
+  .xxl-20 {
+    width: 20%;
+  }
+  .xxl-16 {
+    width: 16%;
+  }
+}
